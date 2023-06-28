@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> normal page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+ 
+<style>
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-variant: small-caps ;
+}
+/* 7d3cff */
+body{
+
+    background: #7d3cff;
+}
+
+#navbar_color{
+    background-color:#cf6766 !important ;
+    font-size:18px;
+    height:55px;
+    }
+
+    .open{
+        color:beige;
+        margin: 20px;
+    }
+
+    .open:hover{
+     border-bottom: 3px solid white;
+     color:bisque;
+     transition:0.20s;
+    }    
+
+#search::placeholder{
+    color: #3f3f3f;
+    font-weight:bold;
+}
+
+#search{
+    background-color:white;
+    color:gray;
+    font-weight:bold;
+    font-variant: small-caps;
+    border:0;
+    border-radius:5px;
+}
+
+#search_btn{
+background-color:#6fbbd3;
+font-style:gray;
+}
+
+#head1{
+margin-left:10px;
+}
+
+
+@media only screen and (min-width:400px) {
+
+    #imag1,#img2{
+    height: 50px;
+    width:50px;
+        
+    }
+}
+
+
+#img-1{
+padding:2px;
+margin:2px;
+border:1px solid gray;
+border-radius: 3px;
+}
+
+#img-2{
+    padding:2px;
+    margin:2px;
+    border:1px solid gray;
+    border-radius: 3px;
+    height: 225px;
+width: 300px;    
+}
+    
+#img-3{
+    padding:2px;
+    margin:2px;
+    border:1px solid gray;
+    border-radius: 3px;
+    height: 225px;
+width: 300px;    
+}
+
+#img-4{
+    padding:2px;
+    margin:2px;
+    border:1px solid gray;
+    border-radius: 3px;
+    height: 225px;
+width: 300px;    
+}
+
+#img-5{
+    padding:2px;
+    margin:2px;
+    border:1px solid gray;
+    border-radius: 3px;
+    height: 225px;
+width: 300px;    
+}
+
+#img-6{
+    padding:2px;
+    margin:2px;
+    border:1px solid gray;
+    border-radius: 3px;
+    height: 225px;
+width: 300px;    
+}
+
+.card{
+
+    background:#bccbde;
+}
+
+.hh{
+font-size: 20px;
+color:white;
+}
+
+.hhh{
+    font-size: 25px;
+    color:white;
+
+}
+
+.anchor{
+text-decoration: none;
+color: white;
+padding: 10px;
+}
+
+#foot{
+background-color: gray;
+    height: 158px;
+}
+
+
+#last{
+    padding-top:10px;
+
+}
+
+</style>
+<!-- <link rel="stylesheet" href="style.css"> -->
+ 
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed" id="navbar_color">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"><path d="M12.292 2.06v-.001l11.25 4.75a.749.749 0 0 1 0 1.382L19 10.108V15a.75.75 0 0 1-.11.391h-.001a2.84 2.84 0 0 1-.392.482c-.249.256-.625.58-1.163.896-1.08.638-2.776 1.23-5.334 1.23-.673 0-1.286-.041-1.846-.113a.75.75 0 0 1 .192-1.487c.492.063 1.042.1 1.654.1 2.317 0 3.746-.533 4.572-1.021.31-.178.596-.397.849-.65l.079-.085V10.74l-5.208 2.2a.75.75 0 0 1-.584 0L5.75 10.424v3.17c.502.129.96.391 1.327.758.579.578.923 1.41.923 2.428v4.5a.761.761 0 0 1-.345.634 2.157 2.157 0 0 1-.21.117 3.923 3.923 0 0 1-.52.213A6.121 6.121 0 0 1 5 22.532a6.092 6.092 0 0 1-1.925-.288 4.065 4.065 0 0 1-.52-.213 1.816 1.816 0 0 1-.22-.124.757.757 0 0 1-.335-.624v-4.5c0-1.02.344-1.85.923-2.43a2.904 2.904 0 0 1 1.327-.757V9.793L.458 8.19a.75.75 0 0 1 0-1.38l11.25-4.75a.75.75 0 0 1 .584 0ZM12 11.436 21.322 7.5 12 3.564 2.678 7.5ZM5 15c-.377 0-.745.141-1.017.413-.265.265-.483.7-.483 1.368v4.022c.299.105.797.228 1.5.228s1.201-.123 1.5-.228V16.78c0-.669-.218-1.103-.483-1.368A1.433 1.433 0 0 0 5 15Z"></path></svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" id="navbar">
+                <a class="nav-link   open" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link  open" href="Blog.html" target="_main">Blogs</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle open" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reviews
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mobile.html" target="_main">Mobile review</a></li>
+                  <li><a class="dropdown-item" href="laptop.html" target="_main">Laptop review</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="products.html"  target="_main">Other products</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link  open" href="e-book.html"  target="_main">e-books</a>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link open" href="contact.html" target="_main">Contact Us</a>
+              </li>
+
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" id="search" placeholder="Search..." aria-label="Search">
+              <button class="btn btn-outline-primary" id="search_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path></svg></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- slides -->
+
+<div class="container-fluid"></div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?cs=srgb&dl=pexels-pixabay-262508.jpg&fm=jpg" class="d-block w-100" height="500px" alt="Blogs">
+          </div>
+          <div class="carousel-item">
+            <img src="https://st2.depositphotos.com/1005979/7918/i/600/depositphotos_79188038-stock-photo-review-magnifying-glass.jpg"  height="500px" class="d-block w-100" alt="Reviews">
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/ebook-reader-man-reading-49985326.jpg?w=1200" class="d-block w-100" alt="e-books"  height="500px" >
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://assets-global.website-files.com/61f29c609f84a86e418fbcfb/6470c77e7e03b0faa87f9bfb_product-launch-event-ideas.jpeg" class="d-block w-100" alt=""  height="500px" >
+          </div>
+
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><hr style="border: 1px solid black;">
+<!---------------------------------------------------BLOGS-----------------------p-------------------------------------->
+
+<div class="row justify-content-evenly">
+  <h2 id="head1" class="hhh ps-4">blogs</h2>
+    <div class="col-md-3 mt-2 ">
+      <div class="card" style="width: 18rem; height:450px;">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/how-to-rescue-a-phone-thats-been-dropped-in-water-6491b244e3222.jpg" class="img-fluid" id="img-1" alt="android phone">
+        <div class="card-body">
+          <h5 class="card-title">android phone</h5>
+          <p class="card-text">"The Evolution of Smartphones: From Communication Devices to Digital Powerhouses"</p>
+          <a href="android.html" target="-main" class="btn btn-primary">visit</a>
+        </div> 
+      </div>
+    </div>
+    <div class="col-md-3 mt-2">
+      <div class="card" style="width: 18rem; height:450px">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="card-img-top img-fluid" alt="laptop" id="img-2">
+        <div class="card-body">
+          <h5 class="card-title">laptop</h5>
+          <p class="card-text"> Revolutionizing Computing: The Journey of Laptop
+          </p>
+          <a href="lap.html" class="btn btn-primary" target="-main">visit</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mt-2">
+      <div class="card" style="width: 18rem; height:450px">
+        <img src="https://goodereader.com/blog/uploads/images/kobo_plus.jpg" class="card-img-top img-fluid" id="img-3" alt="e-book">
+        <div class="card-body">
+          <h5 class="card-title">E-books</h5>
+          <p class="card-text">"The Digital Revolution: Navigating the Age of Technology"</p>
+          <a href="e-book.html" class="btn btn-primary"  target="-main">visit</a>
+        </div>
+      </div>
+    </div>
+  </div><hr style="border: 1px solid black;">
+
+<!-------------------------------------------------REVIEWS---------------------------------------------------------------->
+<div class="row justify-content-evenly">
+  <h2 id="head1" class="hhh ps-4">REVIEWS</h2>
+    <div class="col-md-3 mt-2">
+      <div class="card" style="width: 18rem; height:450px;">
+        <img src="https://voicebot.ai/wp-content/uploads/2019/09/amazon-alexa-event-sept-2019.jpg" class="img-fluid" id="img-4" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">digital</h5>
+          <p class="card-text">"The Digital Revolution: Unleashing the Power of the Virtual World"</p>
+          <a href=".html" target="-main" class="btn btn-primary">visit</a>
+        </div> 
+      </div>
+    </div>
+    <div class="col-md-3 mt-2">
+      <div class="card" style="width: 18rem; height:450px">
+        <img src="https://media.istockphoto.com/id/1141698953/photo/spa-products-for-home-skin-care.jpg?s=612x612&w=0&k=20&c=HxtIt73MwCZBY0APYngv0poZCEtyDhckTuT8SxJSxPE=" class="card-img-top img-fluid" alt="laptop" id="img-5">
+        <div class="card-body">
+          <h5 class="card-title">cosmetics</h5>
+          <p class="card-text">"Beauty in the Bytes: Exploring the Digital Cosmetics Landscape"
+          </p>
+          <a href=".html" class="btn btn-primary" target="-main">visit</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mt-2">
+      <div class="card" style="width: 18rem; height:450px">
+        <img src="https://www.romanpichler.com/wp-content/uploads/2023/01/romans-four-books-circle-jan-2023-scaled-e1673885005114.jpg" class="card-img-top img-fluid" id="img-6" alt="e-book">
+        <div class="card-body">
+          <h5 class="card-title">E-books</h5>
+          <p class="card-text">"The Digital Revolution: Navigating the Age of Technology"</p>
+          <a href="e-book.html" class="btn btn-primary"  target="-main">visit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!----------------------------------------------------- FOOTER------------------------------------------------------>
+ 
+<footer id="foot">
+<div class="row justify-content-evenly" id="last">
+
+ <div class="col-md-3">
+
+  <h3 class="hh">About Us</h3>
+  <a href="#" class="anchor">history</a><br>
+  <a href="#" class="anchor">guidelines </a><br>
+  <a href="#" class="anchor">terms and conditions </a><br>
+  <a href="#" class="anchor">privacy and policy</a><br>
+ </div>
+  <div class="col-md-3">
+    <h3 class="hh">e-books</h3>
+    <a href="#" class="anchor">purchase </a><br>
+    <a href="#" class="anchor">add to cart </a><br>
+  </div>
+
+  <div class="col-md-3">
+    <h3 class="hh">blogs and reviews</h3>
+    <a href="#" class="anchor">new blogs </a><br>
+    <a href="#" class="anchor">latest reviews </a><br>
+  </div>
+ </div> 
+</footer>
+</body>
+</html>
